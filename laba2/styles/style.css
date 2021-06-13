@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Hairline'), local('Lato-Hairline'), url('/fonts/lato/latohairline.woff2') format('woff2'), url('/fonts/lato/latohairline.woff') format('woff'), url('/fonts/lato/latohairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9FF;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Lato, serif;
+    position: relative;
+    left: 0; top:0;
+    width: 100%;
+    background-color: #FFA577;
+    color: white;
+    box-shadow: 0 6px 11px 0 #D55448;
+}
+
+#heading_blog {
+    margin-left: 5px;
+}
+
+#h_quote {
+
+}
+
+.navigation {
+    margin-right: 5px;
+}
+
+main {
+    /*background-color: #2E2300;*/
+    /*color: black;*/
+    flex-grow: 1;
+}
+
+.content {
+    margin: 0 auto;
+    width: 700px;
+    box-shadow: 0 6px 11px 0 #D55448, 0 6px 11px 0 rgba(213, 84, 72, 0.3) inset;
+    padding: 20px;
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background-color: #896E69;
+}
+
